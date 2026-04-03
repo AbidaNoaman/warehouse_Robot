@@ -69,7 +69,7 @@ def run_experiment(grid_name=None, seed=42):
     initial_state = RobotState(start_pos, frozenset())
     
     # Set up MLflow
-    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    #mlflow.set_tracking_uri("sqlite:///mlflow.db")
     experiment_name = "warehouse_robot_v1"
     
     # Create experiment if needed
